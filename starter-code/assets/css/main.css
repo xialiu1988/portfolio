@@ -217,9 +217,9 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 	} */
-
+/* 
 		
-/* @media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
 				width: 1200px;
@@ -247,9 +247,9 @@ input, select, textarea {
 			.container {
 				width: 100%;
 			}
-		} */
+		}
 
-		/* @media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) {
 
 			.container {
 				width: 100%;
@@ -258,8 +258,8 @@ input, select, textarea {
 		} */
 
 /* Row */
-/* 
-	.row {
+
+	/* .row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -498,9 +498,9 @@ input, select, textarea {
 
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 80px;
-				} */
+				} 
 
-		/* @media screen and (min-width: 961px) and (max-width: 1880px) {
+		 @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.row {
 				display: flex;
@@ -743,9 +743,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		} */
+		} 
 
-		/* @media screen and (min-width: 961px) and (max-width: 1620px) {
+		 @media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.row {
 				display: flex;
@@ -988,9 +988,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		} */
+		} 
 
-		/* @media screen and (min-width: 961px) and (max-width: 1320px) {
+		 @media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.row {
 				display: flex;
@@ -1723,11 +1723,11 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		} */
+		}  */
 
 /* Sections/Article */
 
-	/* section, article {
+	 /* section, article {
 		margin-bottom: 3em;
 	}
 
@@ -1739,11 +1739,11 @@ input, select, textarea {
 
 		.row > section, .row > article {
 			margin-bottom: 0;
-		} */
+		}  */
 
 /* Image */
 
-	/* .image {
+	 /* .image {
 		display: inline-block;
 		border: 0;
 	}
@@ -1788,11 +1788,11 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
-			} */
+			} 
 
 /* List */
-/* 
-	ul {
+
+	/* ul {
 		list-style: disc;
 		padding-left: 1em;
 	}
@@ -1808,11 +1808,11 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
-		} */
+		}  */
 
 /* Icons */
 
-	/* ul.icons {
+	 /* ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -1830,11 +1830,11 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		} */
+		}  */
 
-/* Form
+/* Form */
 
-	form label {
+	/* form label {
 		display: block;
 		text-align: left;
 		margin-bottom: 0.5em;
@@ -1901,11 +1901,11 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	} */
+	}  */
 
-/* Table
+ /* Table */
 
-	table {
+	/* table {
 		width: 100%;
 		text-align: left;
 	}
@@ -1932,9 +1932,9 @@ input, select, textarea {
 
 		table tfoot {
 			background: #eee;
-		} */
+		}  */
 
-/* Button
+ /* Button 
 
 	input[type="button"],
 	input[type="submit"],
@@ -1974,11 +1974,11 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #7eaeac;
-		} */
+		}  */
 
 /* Item */
 
-	/* .item {
+	 /* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
@@ -1992,7 +1992,7 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
-			} */
+			}  */
 
 /* Icons */
 
@@ -2014,11 +2014,11 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-		} */
+		} 
 
-/* Header */
+/* Header 
 
-	/* #header {
+	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2155,7 +2155,7 @@ input, select, textarea {
 
 					#nav ul li a.active span:before {
 						color: #e27689;
-					} */
+					}  */
 
 /* Footer */
 
@@ -2185,11 +2185,11 @@ input, select, textarea {
 					border-left: 0;
 					padding-left: 0;
 					margin-left: 0;
-				} */
+				}  */
 
 /* Main */
-/* 
-	#main {
+
+	/* #main {
 		margin-left: 375px;
 	}
 
@@ -2246,7 +2246,7 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
-			} */
+			}  */
 
 /* Wide */
 
@@ -2267,11 +2267,11 @@ input, select, textarea {
 				margin-left: 300px;
 			}
 
-	} */
+	}  */
 
 /* Normal */
-/* 
-	@media screen and (min-width: 961px) and (max-width: 1620px) {
+ 
+	/* @media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			#main > section {
 				padding: 3em 0;
@@ -2281,11 +2281,11 @@ input, select, textarea {
 				padding: 5em 0;
 			}
 
-	} */
+	}  */
 
 /* Narrow */
 
-	/* @media screen and (min-width: 961px) and (max-width: 1320px) {
+	 /* @media screen and (min-width: 961px) and (max-width: 1320px) {
 			body, input, textarea, select {
 				font-size: 16pt;
 			}
@@ -2325,13 +2325,13 @@ input, select, textarea {
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
-					} */
+					}  */
 
 		/* Footer */
 
-			/* #footer {
+		 /* #footer {
 				margin-left: 20%;
-			} */
+			}  */
 
 		/* Main */
 
@@ -2345,9 +2345,9 @@ input, select, textarea {
 
 	/* #headerToggle {
 		display: none;
-	} */
+	}
 
-	/* @media screen and (max-width: 960px) {
+	 @media screen and (max-width: 960px) {
 
 			html, body {
 				overflow-x: hidden;
@@ -2371,11 +2371,11 @@ input, select, textarea {
 			ul.icons a {
 				width: 1.75em;
 				font-size: 1.25em;
-			} */
+			}  */
 
 		/* Header */
 
-			/* #header {
+		 /* #header {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2492,7 +2492,7 @@ input, select, textarea {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			} */
+			}  */
 
 		/* Footer */
 
@@ -2502,7 +2502,7 @@ input, select, textarea {
 
 		/* Main */
 
-			/* #main {
+	 /* #main {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2523,15 +2523,15 @@ input, select, textarea {
 					padding: 4em 0;
 				}
 
-	} */
+	}  */
 
 /* Mobile */
 
-	/* @media screen and (max-width: 736px) {
+ /* @media screen and (max-width: 736px) { */
 
 		/* Basic */
 
-			/* body, input, textarea, select {
+		/* body, input, textarea, select {
 				font-size: 14pt;
 			}
 
@@ -2543,14 +2543,14 @@ input, select, textarea {
 
 			.container {
 				padding: 0 15px 0 15px;
-			} */ 
+			}  */
 
 		/* List */
 
-			/* ul.icons a {
+		/* ul.icons a {
 				width: 2em;
 				font-size: 1.25em;
-			} */
+			}  */
 
 		/* Main */
 
