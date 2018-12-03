@@ -1,0 +1,66 @@
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+
+
+header {
+    margin: 0 0 2em 0;
+}
+
+    header > p {
+        color:#84e925;
+        font-family: 'Architects Daughter', cursive;
+        margin: 1em 0 0 0;
+    }
+
+footer {
+    margin: 2em 0 0 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+}
+section, article {
+    margin-bottom: 3em;
+}
+
+    section > :last-child,
+    section > .container, section:last-child, article > :last-child,
+    article > .container, article:last-child {
+        margin-bottom: 0;
+    }
+
+    .row > section, .row > article {
+        margin-bottom: 0;
+    }
+
+   
