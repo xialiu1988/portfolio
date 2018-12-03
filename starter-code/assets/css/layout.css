@@ -819,16 +819,20 @@ ul.icons {
                                         }
                             
                                             #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-                                                color: inherit;
+                                                /* color: inherit; */
+                                                color:#84e925;
+                                                font-family: 'Allerta Stencil', sans-serif;
                                             }
                             
                                             #main > section.dark strong {
-                                                color: #fff;
+                                                color: rgb(222, 46, 228);
+                                                font-family: 'Pacifico', cursive;
                                                 border-color: inherit;
                                             }
                             
                                             #main > section.dark a {
-                                                color: #fff;
+                                                color: rgb(45, 179, 241);
+                                                font-family: 'Indie Flower', cursive;
                                                 border-color: inherit;
                                             }
                             
@@ -844,7 +848,7 @@ ul.icons {
                             
                                         #main > section.one {
                                             background-color: #81918E;
-                                            background-image: url("../../images/img01.jpg");
+                                            /* background-image: url("../../images/img01.jpg"); */
                                         }
                             
                                         #main > section.two {
