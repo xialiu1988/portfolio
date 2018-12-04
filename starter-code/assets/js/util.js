@@ -36,13 +36,13 @@
   
 
   window.onload=function(){
-    var imgs =['/images/spaceneedle.jpg', '/images/xialiu.jpg','/images/gator.jpg']; 
+    var imgs =['/images/spaceneedle.jpg', '/images/xialiu.jpg','/images/gator.jpg','/images/star.gif']; 
     var i = 0;
     var head=document.getElementById('top');
     head.style.background='/images/xialiu.jpg'; 
     function time(){
              i++;
-             i=i%3; 
+             i=i%4; 
              head.style.background='url('+imgs[i]+')';
 
     }
